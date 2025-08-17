@@ -69,9 +69,15 @@ From the results of the classification models on the churn prediction dataset, w
 
 5. **Logistic Regression** has the lowest accuracy (0.703667), F1 score (0.473029), and ROC AUC score (0.764076) among all the models. This indicates that Logistic Regression is the least effective model for predicting customer churn in this dataset.
 
+### Conclusion
+Streamlined features to the most important predictors, improving model efficiency and interpretability.
+Achieved 83.3% accuracy and 58.7% F1-score with XGB on churn prediction, balancing precision and recall.
+Optimized XGB, reaching 81.7% accuracy, 70.0% recall, and 86.0% ROC AUC, making it effective model.
+
 #### Overall:
 
 Gradient Boosting appears to be the best model for this churn prediction task, followed closely by XGBoost. These models are able to better handle the class imbalance and provide a good balance between precision and recall. 
+
 
 
 
